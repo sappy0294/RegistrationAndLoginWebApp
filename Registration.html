@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/Register.css">
+    <script src="js/Register.js"></script>
+    <title>Registration form</title>
+</head>
+
+<body>
+    <form class="container" id ="myform">
+        <h1>Registration Form</h1>
+            <div class="column">
+                First Name<input class="names-field1" id="firstname" type="text" placeholder="Enter your first name">
+                <div class="error-message" id="firstname-error"></div>
+            </div>
+            <div class="column">
+                Last Name<input class="names-field2" id="lastname" type="text" placeholder="Enter your last name">
+                <div class="error-message" id="lastname-error"></div>
+            </div>
+            <div class="column">
+                Middle Name<input class="names-field3" id="middlename" type="text" placeholder="Enter your middle name">
+                <div class="error-message" id="middlename-error"></div>
+            </div>
+            <div class="column">
+                Gender<select id="dropdown">
+                    <option id="option2">Select Gender</option>
+                    <option id="option1">Male</option>
+                    <option id="option2">Female</option>
+                </select>
+                <div class="error-message" id="gender-error"></div>
+            </div>
+            <div class="column">
+                Phone Number<input class="phone-field" id="phoneno" type="text" placeholder="Enter your phone number">
+                <div class="error-message" id="phonenumber-error"></div>
+            </div>
+            <div class = "column">
+                Address1<input class = "address-field" id="address1" type = "text" placeholder="Enter you address1">
+                <div class="error-message" id="address1-error"></div>
+            </div>
+            <div class = "column">
+                Address2<input class = "address-field" id="address2" type = "text" placeholder="Enter you address2">
+                <div class="error-message" id="address2-error"></div>
+            </div>
+            <div class = "column">
+                City<input class = "city-field" id="city" type = "text" placeholder="Enter you city">
+                <div class="error-message" id="city-error"></div>
+            </div>
+            <div class = "column">
+                State<input class = "state-field" id="state" type = "text" placeholder="Enter you state">
+                <div class="error-message" id="state-error"></div>
+            </div>
+            <div class = "column">
+                Country<input class = "country-field" id="country" type = "text" placeholder="Enter you country">
+                <div class="error-message" id="country-error"></div>
+            </div>
+            <div class = "column">
+                Email Address<input class = "email-field" id="email" type = "text" placeholder="Enter you email address">
+                <div class="error-message" id="email-error"></div>
+            </div>
+            <div class = "column">
+                Password<input class = "password-field" id="password" type = "password" placeholder="Enter you password">
+                <div class="error-message" id="password-error"></div>
+            </div>
+        <button class="submit" id="submitButton">Submit</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body {
+    background-color: #0a2351;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    margin: 12px;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    margin: 12px;
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+}
+/*.error-border {
+    border: 2px solid red;
+}*/
